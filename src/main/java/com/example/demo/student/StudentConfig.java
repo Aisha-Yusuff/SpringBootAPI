@@ -19,15 +19,13 @@ public class StudentConfig {
             Student aisha = new Student(
                     "Aisha",
                     "aisha.y@gmail.com",
-                    LocalDate.of(1999, MAY, 29),
-                    23
+                    LocalDate.of(1999, MAY, 29)
             );
 
             Student alex = new Student(
                     "Alex",
                     "alex@gmail.com",
-                    LocalDate.of(1997, MAY,4),
-                    25
+                    LocalDate.of(1997, MAY,4)
             );
 
 //            Save students into our db
