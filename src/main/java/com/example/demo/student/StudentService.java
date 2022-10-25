@@ -20,4 +20,8 @@ public class StudentService {
 //        Return a list of students in the db
         return studentRepository.findAll();
     }
+
+    public void addNewStudent(Student student) {
+        System.out.println(student);
+    }
 }
